@@ -27,7 +27,7 @@ public class CallableDemo {
 
         }*/
         int result2 = futureTask.get();
-        System.out.println("result" + (result1 + result2));
+        System.out.println("result=" + (result1 + result2));
     }
 }
 
