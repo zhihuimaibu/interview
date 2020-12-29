@@ -2,6 +2,9 @@ package 设计模式.策略模式;
 
 import java.util.Arrays;
 
+/**
+ * 策略模式：context 具体的策略类 定义一组算法，将他们分别封装起来并且每种算法都可以互换
+ */
 public class 策略枚举 {
     public static void main(String[] args) {
         int a = Integer.parseInt(args[0]);
